@@ -1,5 +1,5 @@
 {
-    "name": "artem-frolov/yii-sass",
+    "name": "alucard1990/yii-sass",
     "type": "library",
     "description": "Sass (SCSS) and Compass support for the Yii framework",
     "keywords": ["yii","sass","compass","scss","css"],
