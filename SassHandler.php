@@ -572,7 +572,7 @@ class SassHandler extends CApplicationComponent
     protected function saveParsedFilesInfoToCache($sourcePath)
     {
         $parsedFiles = $this->compiler->getParsedFiles();
-        $parsedFiles[] = $sourcePath;
+        $parsedFiles[$sourcePath] = 0;
         $parsedFilesWithTime = array();
         foreach ($parsedFiles as $file=>$time) {
             $parsedFilesWithTime[$file] = filemtime($file);
