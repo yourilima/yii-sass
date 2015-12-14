@@ -14,15 +14,15 @@
         }
     ],
     "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/yourilima/scssphp-compass.git"
-    }
-  ],
+        {
+            "type": "vcs",
+            "url": "https://github.com/yourilima/scssphp-compass.git"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
         "leafo/scssphp": "~0.3.3",
-        "artem-frolov/scssphp-compass": "0.1.*"
+        "yourilima/scssphp-compass": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.2",
